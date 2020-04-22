@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'macos-10.15'
 
 steps:
 - script: echo Hello, world!
